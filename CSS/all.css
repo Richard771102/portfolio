@@ -19,6 +19,7 @@ nav.change{
     text-align: center;
     line-height: 80vh;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vw;
 }
 #content-bg{
     background-color: rgba(0, 0, 0, 0.6);
