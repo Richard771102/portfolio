@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Interactive background</title>
     <style>
         body{
             margin: 0;
@@ -23,7 +23,7 @@
             z-index: 1;
             width:100%
         }
-        h1,p{
+        h1,p,a{
             position: absolute;
             top:50%;
             left:50%;
@@ -32,16 +32,37 @@
             font-weight: 700;
         }
         p{
-            top:55%;
+            top:60%;
             transform: translate(-50%, -55%);
 
         }
+
+        a{
+            top:80%;
+            text-decoration: none;
+            z-index: 2;
+        }
+
+        a:visited{
+            color: crimson;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: #ffffff;
+        }
+
+        a:active{
+            color:black;
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
         <h1>HTML5 Canvas</h1>
-        <p>Pactice #1</p>
+        <p>#1</p>
+        <a href="page2.html">Next</a>
     </div>
     <canvas></canvas>
     <script src="canvas.js"></script>

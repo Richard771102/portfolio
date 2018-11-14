@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gravity Ball</title>
+    <style>
+        body{
+            background-color: #415B76;
+        }
+
+        .title{
+            position: relative;
+            text-align: center;
+            height: 70vh;
+        }
+
+        h1,p{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            color: #ffffff;
+            font-size: 4vw;
+            font-weight: 700;
+        }
+
+        canvas{
+            position: absolute;
+            top:0;
+            left:0;
+            z-index: 1;
+        }
+
+        p{
+            top:60%;
+            transform: translate(-50%,-55%);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1>HTML5 Canvas</h1>
+        <p>#2</p>
+    </div>
+    
+    <canvas></canvas>
+    <script src="canvas2.js"></script>
+</body>
+</html>
